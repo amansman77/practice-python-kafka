@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: kafka-python Producer",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/kafka-python/producer.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: kafka-python Consumer",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/kafka-python/consumer.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Video Producer",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/video/producer.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Video Producer - RTSP",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/video/producer_rtsp.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Video Consumer",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/video/consumer.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Triton Producer",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/video/request.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
